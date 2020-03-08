@@ -1,0 +1,52 @@
+{
+    "title": "Conan Tutorial",
+    "description": "Tutorial of Conan, a C/C++ Package Management Tool",
+    "author": "Bowen",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "links": {
+        "sidebar": {
+            "博客": "https://www.jianshu.com/u/92b7d9879f20"
+        }
+    },
+    "plugins": [
+        "code",
+        "-search",
+        "search-pro",
+        "-github",
+        "splitter",
+        "tbfed-pagefooter",
+        "-donate",
+        "-sharing",
+        "sharing-plus",
+        "prism",
+        "-highlight",
+        "styles-less",
+        "toggle-chapters",
+        "multipart",
+        "ancre-navigation"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/MagicBowen/conan-tutorial"
+        },
+        "code": {
+            "copyButtons": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © CCOCK 2020",
+            "modify_label": "本书发布时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-dark.css"
+            ],
+            "lang": {
+                "flow": "typescript"
+            }
+        }
+    }
+}
