@@ -46,7 +46,9 @@ Google的[Bazel](https://bazel.build/)也支持类似的模块化特性，某些
 
 遗憾的是如我们前面所说，C/C++的构建以及二进制兼容性的外部影响因素太多，所以现有被广泛使用的包管理器往往是局限于某种系统类型内的。例如Linux下主流的rpm和deb就分别面向不同的linux发行版（如Fedora和Ubuntu，当然可以扩展）。这种方式简化了C/C++的构建和二进制兼容性的管理（还包括标准库的兼容性管理），因此让包管理器的设计和使用变得容易。遗憾的是，这样的包管理器对于更广泛的社区化开发是不够的。
 
-不过，社区一直没有停止过努力的脚步。[biicode](https://biicode.github.io/biicode/)是一款探索以源码发包的现代化C/C++包管理器，但遗憾的是这个项目由于经营原因在2015年关闭了。随后[conan](https://docs.conan.io/en/latest/introduction.html)接过了接力棒，继续探索解决通用C/C++包管理器的各种挑战，并默默的在运营壮大中。
+不过，社区一直没有停止过努力的脚步。[Biicode](https://biicode.github.io/biicode/)是一款探索以源码发包的现代化C/C++包管理器，但遗憾的是这个项目由于经营原因在2015年关闭了。Biicode在关闭前开源了它所有的源码，那个时候刚好我也和几个朋友也一起创建了个C/C++包管理的项目`CUP`，遗憾的是由于精力原因这个项目一直未能完成。
+
+幸运的是，后来我看到了[conan](https://docs.conan.io/en/latest/introduction.html)，一款出色的开源C/C++包管理器。它吸收了很多现代化包管理器的设计思想，探索解决通用C/C++包管理器的各种挑战，而且每个方面都解决的很不错。
 
 借用Conan文档中的介绍：“Conan is a dependency and package manager for C and C++ languages. It is free and open-source, and it works in all platforms，also integrates with all build systems...”。
 
