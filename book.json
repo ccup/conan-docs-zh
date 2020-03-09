@@ -30,7 +30,7 @@
     ],
     "pluginsConfig": {
         "github": {
-            "url": "https://github.com/MagicBowen/conan-tutorial"
+            "url": "https://github.com/ccup/conan-docs-zh/"
         },
         "code": {
             "copyButtons": true
